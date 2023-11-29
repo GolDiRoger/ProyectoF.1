@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover {
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +24,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color:rgb(197, 197, 197);
+    background-color: #2A2A2A;
 
 }
 
@@ -150,10 +164,11 @@ h2 {
 }
 
 .product-1 {
-    background-color: #0f0f0f9c;
+    background-color: #504f4f;
     border-width: 40px;
-    border-radius: 40px;
+    border-radius: 30px;
     margin: auto;
+    flex-grow: 60;
 }
 
 .product-txt {
@@ -188,12 +203,6 @@ h3 {
 .contact {
     padding: 150px 300px;
 }
-.contact-content {
-    background-color: #333;
-    text-align: center;
-    padding: 50px;
-    border-radius: 50px;
-}
 
 form {
     display: flex;
@@ -227,7 +236,7 @@ input {
     justify-content: space-between;
     align-items: center;
     padding: 50px 30px;
-    background: #333;
+    background: #504f4f;
     border-radius: 30px;
 }
 
