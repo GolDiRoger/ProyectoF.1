@@ -109,7 +109,7 @@ img {
 }
 
 .header-txt span {
-    color: #FF5A2C;
+    color:#2A2A2A ;
 }
 
 .header-txt p {
@@ -130,6 +130,7 @@ img {
     margin-right: 25px;
     font-size: 17px;
     color: #FFFFFF;
+    
 }
 .btn-1:hover {
     background-color: #5a2cff;
